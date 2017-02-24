@@ -15,10 +15,9 @@ void findPair(long long int arr[], long long int n, long long int sum)
     long long int count;
  
     count = 0;
-    for (i = 0; i < n; i++)
-    {
- 
-        
+	
+    for (i = 0; i < n; i++) {
+	    
         map[arr[i]] = i;
     }
  
@@ -29,8 +28,6 @@ void findPair(long long int arr[], long long int n, long long int sum)
 
     cout <<count<<endl;
 }
-
- 
 
 int main()
 {
@@ -46,6 +43,6 @@ int main()
 	 	cin>>arr[i];
 
 	findPair(arr, n, sum);
- 
-    return 0;
+	
+ 	return 0;
 }
