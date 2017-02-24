@@ -34,13 +34,12 @@ void findPair(long long int arr[], long long int n, long long int sum)
 
 int main()
 {
-    
     	long long int n;
 	long long int sum;
 	long long int i;
 
 	cin>>n>>sum;
- 
+	
 	long long int arr[n];	
 	
 	for (i = 0; i < n; i++)
