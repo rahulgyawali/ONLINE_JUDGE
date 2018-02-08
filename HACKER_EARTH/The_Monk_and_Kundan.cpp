@@ -6,7 +6,6 @@ int main()
     int t,n,i,sum,j;
     string x,temp;
     
-    
     string a = "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     map<char,int> mp;
     for(i = 0; i < a.size(); i++) {
